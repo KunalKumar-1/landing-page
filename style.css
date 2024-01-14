@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+#main {
+  height: 100%;
+  width: 100%;
+  background-color: hsl(2deg 17.86% 32.94%);
+  display: flex;
+  
+}
+#part1 {
+  height: 100%;
+  width: 26%;
+  /*background-color: red;*/
+}
+#part2 {
+  height: 100%;
+  width: 67%;
+  background-color: rgb(42, 188, 214);
+  background-image: url(https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?q=80&w=987&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  background-position: center;
+}
+
+#overlay {
+  height: 100%;
+  width: 100%;
+  background-color: rgba(161, 145, 149, 0.5);
+}
+
+#part3 {
+  height: 100%;
+  width: 7%;
+  /*background-color: rgb(157, 0, 255);*/
+}
+#text-div {
+  /* height:300px;*/
+  position: absolute;
+  width: 400px;
+  /*background-color: red;*/
+  left: 5%;
+  top: 50%;
+  transform: translate(0, -50%);
+}
+#text-div > h1 {
+  font-size: 95px;
+  font-family: monument;
+  font-weight: 800;
+  line-height: 78px;
+  letter-spacing: 8px;
+  color: #fff;
+  text-transform: uppercase;
+}
+#small-img-div {
+  height: 400px;
+  width: 300px;
+  background-image: url(https://images.unsplash.com/photo-1492288991661-058aa541ff43?q=80&w=1887&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+  background-size: cover;
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translate(0, -50%);
+}
+#vertical-text {
+  position: absolute;
+  right:-53.43%;
+  top:-12%;
+  transform-origin: 0%;
+   transform: rotate(90deg);
+   z-index:5;
+   text-transform: uppercase;
+}
+
+#vertical-text h1{
+     font-size: 80px;
+     font-weight: 900;  
+     color:transparent;
+     letter-spacing: 2px;
+     
+      
+     font-family: 'Monument', sans-serif;
+     -webkit-text-stroke-width: 2px;
+     -webkit-text-stroke-color:white;
+}
+#nav{
+   position:absolute;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 350px;
+   left: 6.5%;
+   top:5%;
+   /*background-color: red;*/
+  
+}
+#nav img{
+  height:70px ;
+  opacity: 90%;
+  
+}
+
+#nav h5{
+  font-size:15px;
+  font-family: gilroy;
+  color:#fff;
+  letter-spacing: 1px;
+}
