@@ -14,7 +14,6 @@ body {
   width: 100%;
   background-color: hsl(2deg 17.86% 32.94%);
   display: flex;
-  
 }
 #part1 {
   height: 100%;
@@ -71,45 +70,42 @@ body {
 }
 #vertical-text {
   position: absolute;
-  right:-53.43%;
-  top:-12%;
+  right: -53.43%;
+  top: -12%;
   transform-origin: 0%;
-   transform: rotate(90deg);
-   z-index:5;
-   text-transform: uppercase;
+  transform: rotate(90deg);
+  z-index: 5;
+  text-transform: uppercase;
 }
 
-#vertical-text h1{
-     font-size: 80px;
-     font-weight: 900;  
-     color:transparent;
-     letter-spacing: 2px;
-     
-      
-     font-family: 'Monument', sans-serif;
-     -webkit-text-stroke-width: 2px;
-     -webkit-text-stroke-color:white;
+#vertical-text h1 {
+  font-size: 80px;
+  font-weight: 900;
+  color: transparent;
+  letter-spacing: 2px;
+
+  font-family: "Monument", sans-serif;
+  -webkit-text-stroke-width: 2px;
+  -webkit-text-stroke-color: white;
 }
-#nav{
-   position:absolute;
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   width: 350px;
-   left: 6.5%;
-   top:5%;
-   /*background-color: red;*/
-  
+#nav {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 350px;
+  left: 8%;
+  top: 5%;
+  /*background-color: red;*/
 }
-#nav img{
-  height:70px ;
+#nav img {
+  height: 70px;
   opacity: 90%;
-  
 }
 
-#nav h5{
-  font-size:15px;
+#nav h5 {
+  font-size: 15px;
   font-family: gilroy;
-  color:#fff;
+  color: #fff;
   letter-spacing: 1px;
 }
